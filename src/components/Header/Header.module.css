@@ -1,0 +1,29 @@
+.navBox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navList {
+  display: flex;
+  text-shadow: 1px 1px 20px black;
+  gap: 20px;
+  font-size: 20px;
+}
+.settings {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+  align-items: flex-end;
+}
+.button {
+  padding: 4px 12px;
+}

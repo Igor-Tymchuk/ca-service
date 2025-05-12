@@ -1,0 +1,5 @@
+.customMap {
+  border: 1px solid #00ffcc;
+  filter: grayscale(50%);
+  border-radius: 10px;
+}

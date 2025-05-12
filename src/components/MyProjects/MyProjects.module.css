@@ -1,0 +1,79 @@
+.projects {
+  scroll-margin-top: 100px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+}
+.title {
+  text-align: center;
+  font-size: 38px;
+}
+
+.project:nth-child(even) {
+  flex-direction: row-reverse;
+  & .button {
+    left: 0;
+    right: auto;
+  }
+  .textBlock a {
+    align-self: self-end;
+  }
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.project {
+  display: flex;
+  gap: 20px;
+  border-bottom: 1px solid rgb(121, 121, 121);
+  padding-bottom: 30px;
+}
+.project:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.textBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50%;
+  text-shadow: 1px 1px 20px rgb(0, 0, 0);
+  & h3 {
+    color: dodgerblue;
+    text-align: center;
+  }
+  & a {
+    margin: 5px;
+    align-self: self-start;
+  }
+}
+
+.imgBlock {
+  display: flex;
+  position: relative;
+  width: 50%;
+  box-shadow: 0 0 15px rgba(0, 255, 204, 0.3);
+  & img {
+    border-radius: 5px;
+    object-fit: cover;
+  }
+}
+.button {
+  opacity: 0.5;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin: 10px;
+  &:hover {
+    background-color: #000000a8;
+  }
+}
