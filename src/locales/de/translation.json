@@ -1,0 +1,73 @@
+{
+  "header": {
+    "home": "Startseite",
+    "about": "Über uns",
+    "services": "Dienstleistungen",
+    "advantages": "Vorteile",
+    "gallery": "Galerie",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "slogan": "Karosserie- und Lackierservice - schnell, zuverlässig, professionell",
+    "appointment": "Termin vereinbaren",
+    "call": "Jetzt anrufen"
+  },
+  "about": {
+    "title": "Über uns",
+    "description": "Wir sind seit 15 Jahren auf dem Markt tätig und bieten professionelle Karosserie- und Lackierdienstleistungen an. Unser Team besteht aus erfahrenen Fachleuten, die auf jedes Detail achten. Wir legen Wert auf Qualität, Pünktlichkeit und einen individuellen Ansatz für jeden Kunden.",
+    "experience": "15 Jahre Erfahrung",
+    "clients": "Tausende zufriedener Kunden",
+    "quality": "Höchste Qualität der Dienstleistungen"
+  },
+  "services": {
+    "title": "Unsere Dienstleistungen",
+    "service1": "Unfallreparaturen",
+    "service2": "Komplette und punktuelle Lackierung mit Messung",
+    "service3": "Karosserierichtung",
+    "service4": "Korrosionsschutz",
+    "service5": "Austausch und Reparatur von Karosserieteilen",
+    "service6": "Reparatur und Schweißen von Aluminiumelementen",
+    "service7": "Flüssiges Polyurethan"
+  },
+  "advantages": {
+    "title": "Unsere Vorteile",
+    "advantage1": "Garantie auf Dienstleistungen",
+    "advantage2": "Moderne Werkzeuge und Messungen",
+    "advantage3": "Erfahrene Fachleute",
+    "advantage4": "Individueller Ansatz",
+    "advantage5": "Zusammenarbeit mit Versicherern"
+  },
+  "gallery": {
+    "title": "Galerie",
+    "before": "Vorher",
+    "after": "Nachher"
+  },
+  "contact": {
+    "title": "Kontakt",
+    "form": {
+      "title": "Kontaktformular",
+      "name": "Vollständiger Name",
+      "phone": "Telefon",
+      "message": "Nachricht",
+      "image": "Bild Ihres Autos hochladen",
+      "selectImage": "Datei auswählen",
+      "noFileSelected": "Keine Datei ausgewählt",
+      "submit": "Nachricht senden",
+      "sending": "Senden...",
+      "success": "Nachricht erfolgreich gesendet!"
+    },
+    "info": {
+      "title": "Kontaktinformationen",
+      "phone": "Telefon",
+      "hours": "Öffnungszeiten",
+      "weekdays": "Montag - Freitag: 8:00 - 18:00",
+      "saturday": "Samstag: 8:00 - 14:00",
+      "sunday": "Sonntag: Geschlossen"
+    }
+  },
+  "footer": {
+    "rights": "Alle Rechte vorbehalten",
+    "privacy": "Datenschutzrichtlinie",
+    "terms": "Nutzungsbedingungen"
+  }
+}

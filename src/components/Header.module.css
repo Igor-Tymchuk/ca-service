@@ -1,0 +1,229 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  background-color: rgba(10, 10, 10, 0.9);
+  z-index: 1000;
+  transition: all 0.3s ease;
+}
+
+.scrolled {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  background-color: rgba(10, 10, 10, 0.95);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Update the logo styles to ensure a truly fixed size */
+.logo {
+  display: flex;
+  align-items: center;
+  width: 120px;
+  height: 60px;
+  flex-shrink: 0; /* Prevent logo from shrinking */
+}
+
+.logo img {
+  width: 120px;
+  height: 60px;
+  object-fit: contain;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.navList {
+  display: flex;
+  list-style: none;
+  margin-right: 2rem;
+}
+
+.navList li {
+  margin: 0 1rem;
+}
+
+.navList a,
+.contactButton {
+  color: var(--text-primary);
+  font-weight: 500;
+  transition: color 0.3s ease;
+  position: relative;
+  background: none;
+  border: none;
+  font-size: 1rem;
+  font-family: inherit;
+  cursor: pointer;
+  padding: 0;
+}
+
+.navList a:hover,
+.contactButton:hover {
+  color: var(--accent-red);
+}
+
+.navList a::after,
+.contactButton::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -5px;
+  left: 0;
+  background-color: var(--accent-red);
+  transition: width 0.3s ease;
+}
+
+.navList a:hover::after,
+.contactButton:hover::after {
+  width: 100%;
+}
+
+.langSwitcher {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.langSwitcher button {
+  background: none;
+  border: none;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  cursor: pointer;
+  padding: 0.25rem 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.langSwitcher button:hover {
+  color: var(--text-primary);
+}
+
+.langSwitcher button.active {
+  color: var(--accent-red);
+  font-weight: 600;
+}
+
+.mobileMenuButton {
+  display: none;
+  cursor: pointer;
+}
+
+.menuIcon {
+  width: 30px;
+  height: 20px;
+  position: relative;
+}
+
+.menuIcon span {
+  display: block;
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  background: var(--text-primary);
+  border-radius: 3px;
+  opacity: 1;
+  left: 0;
+  transform: rotate(0deg);
+  transition: 0.25s ease-in-out;
+}
+
+.menuIcon span:nth-child(1) {
+  top: 0px;
+}
+
+.menuIcon span:nth-child(2) {
+  top: 8px;
+}
+
+.menuIcon span:nth-child(3) {
+  top: 16px;
+}
+
+.menuIcon.open span:nth-child(1) {
+  top: 8px;
+  transform: rotate(135deg);
+}
+
+.menuIcon.open span:nth-child(2) {
+  opacity: 0;
+  left: -60px;
+}
+
+.menuIcon.open span:nth-child(3) {
+  top: 8px;
+  transform: rotate(-135deg);
+}
+
+/* Laptop (769px to 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .navList {
+    margin-right: 1rem;
+  }
+
+  .navList li {
+    margin: 0 0.5rem;
+  }
+}
+
+/* Tablet and Phone (up to 768px) */
+@media (max-width: 768px) {
+  .mobileMenuButton {
+    display: block;
+    z-index: 1001;
+  }
+
+  .nav {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 70%;
+    height: 100vh;
+    background-color: var(--background-darker);
+    flex-direction: column;
+    justify-content: center;
+    transition: right 0.3s ease;
+    box-shadow: -5px 0 15px rgba(0, 0, 0, 0.3);
+  }
+
+  .nav.open {
+    right: 0;
+  }
+
+  .navList {
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0 2rem 0;
+  }
+
+  .navList li {
+    margin: 1rem 0;
+  }
+
+  .langSwitcher {
+    margin-top: 2rem;
+  }
+}
+
+/* Remove any responsive adjustments to the logo */
+@media (max-width: 480px) {
+  .logo {
+    width: 120px;
+    height: 60px;
+  }
+
+  .logo img {
+    width: 120px;
+    height: 60px;
+  }
+}

@@ -1,0 +1,166 @@
+.formContainer {
+  background-color: var(--background-dark);
+}
+
+.formGroup {
+  margin-bottom: var(--spacing-md);
+}
+
+.formGroup label {
+  display: block;
+  margin-bottom: var(--spacing-xs);
+  font-weight: 500;
+}
+
+.formGroup input,
+.formGroup textarea {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #333;
+  border-radius: 4px;
+  background-color: #1a1a1a;
+  color: var(--text-primary);
+  font-family: inherit;
+  transition: border-color 0.3s ease;
+}
+
+.formGroup input:focus,
+.formGroup textarea:focus {
+  outline: none;
+  border-color: var(--accent-red);
+}
+
+/* File input styling */
+.fileInputWrapper {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.fileInput {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.fileButton {
+  padding: 0.6rem 1rem;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.fileButton:hover {
+  background-color: #444;
+}
+
+.fileName {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 200px;
+}
+
+.fileError {
+  color: #e74c3c;
+  font-size: 0.85rem;
+  margin-top: 5px;
+}
+
+.imagePreview {
+  margin-top: 10px;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+
+.imagePreview img {
+  max-width: 100%;
+  max-height: 200px;
+  border-radius: 4px;
+  border: 2px solid #333;
+}
+
+.removeImageBtn {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: var(--accent-red);
+  color: white;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 1;
+  padding: 0;
+}
+
+.submitButton {
+  width: 100%;
+  padding: 1rem;
+  background-color: var(--accent-red);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submitButton:hover {
+  background-color: var(--accent-red-hover);
+}
+
+.submitButton:disabled {
+  background-color: #666;
+  cursor: not-allowed;
+}
+
+.successMessage {
+  margin-top: var(--spacing-md);
+  padding: var(--spacing-sm);
+  background-color: rgba(39, 174, 96, 0.2);
+  color: #2ecc71;
+  border-radius: 4px;
+  text-align: center;
+}
+
+/* Phone only (up to 480px) */
+@media (max-width: 480px) {
+  .formGroup input,
+  .formGroup textarea {
+    padding: 0.6rem;
+  }
+
+  .submitButton {
+    padding: 0.8rem;
+  }
+
+  .fileInputWrapper {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .fileName {
+    max-width: 100%;
+  }
+}

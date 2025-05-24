@@ -1,0 +1,73 @@
+{
+  "header": {
+    "home": "Strona główna",
+    "about": "O nas",
+    "services": "Usługi",
+    "advantages": "Zalety",
+    "gallery": "Galeria",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "slogan": "Blacharsko-lakierniczy serwis – szybko, solidnie, profesjonalnie",
+    "appointment": "Umów się na wizytę",
+    "call": "Zadzwoń teraz"
+  },
+  "about": {
+    "title": "O nas",
+    "description": "Działamy na rynku od 15 lat, oferując profesjonalne usługi blacharsko-lakiernicze. Nasz zespół składa się z doświadczonych fachowców, którzy dbają o każdy szczegół. Stawiamy na jakość, terminowość i indywidualne podejście do każdego klienta.",
+    "experience": "15 lat doświadczenia",
+    "clients": "Tysiące zadowolonych klientów",
+    "quality": "Najwyższa jakość usług"
+  },
+  "services": {
+    "title": "Nasze usługi",
+    "service1": "Naprawy powypadkowe",
+    "service2": "Lakierowanie całościowe i miejscowe pod miernik",
+    "service3": "Prostowanie karoserii",
+    "service4": "Zabezpieczenia antykorozyjne",
+    "service5": "Wymiana i naprawa elementów blacharskich",
+    "service6": "Naprawa i spawanie elementów aluminiowych",
+    "service7": "Płynny poliuretan"
+  },
+  "advantages": {
+    "title": "Nasze zalety",
+    "advantage1": "Gwarancja na usługi",
+    "advantage2": "Nowoczesne narzędzia i pomiary",
+    "advantage3": "Doświadczeni fachowcy",
+    "advantage4": "Indywidualne podejście",
+    "advantage5": "Współpraca z ubezpieczycielami"
+  },
+  "gallery": {
+    "title": "Galeria",
+    "before": "Przed",
+    "after": "Po"
+  },
+  "contact": {
+    "title": "Kontakt",
+    "form": {
+      "title": "Formularz kontaktowy",
+      "name": "Imię i nazwisko",
+      "phone": "Telefon",
+      "message": "Wiadomość",
+      "image": "Dodaj zdjęcie swojego samochodu",
+      "selectImage": "Wybierz plik",
+      "noFileSelected": "Nie wybrano pliku",
+      "submit": "Wyślij wiadomość",
+      "sending": "Wysyłanie...",
+      "success": "Wiadomość wysłana pomyślnie!"
+    },
+    "info": {
+      "title": "Informacje kontaktowe",
+      "phone": "Telefon",
+      "hours": "Godziny otwarcia",
+      "weekdays": "Poniedziałek - Piątek: 8:00 - 18:00",
+      "saturday": "Sobota: 8:00 - 14:00",
+      "sunday": "Niedziela: Zamknięte"
+    }
+  },
+  "footer": {
+    "rights": "Wszelkie prawa zastrzeżone",
+    "privacy": "Polityka prywatności",
+    "terms": "Warunki korzystania"
+  }
+}

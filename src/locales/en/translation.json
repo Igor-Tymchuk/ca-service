@@ -1,0 +1,73 @@
+{
+  "header": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "advantages": "Advantages",
+    "gallery": "Gallery",
+    "contact": "Contact"
+  },
+  "hero": {
+    "slogan": "Auto body and paint service - fast, reliable, professional",
+    "appointment": "Book an appointment",
+    "call": "Call now"
+  },
+  "about": {
+    "title": "About us",
+    "description": "We have been operating in the market for 15 years, offering professional auto body and paint services. Our team consists of experienced professionals who pay attention to every detail. We focus on quality, timeliness, and an individual approach to each customer.",
+    "experience": "15 years of experience",
+    "clients": "Thousands of satisfied customers",
+    "quality": "Highest quality services"
+  },
+  "services": {
+    "title": "Our services",
+    "service1": "Accident repairs",
+    "service2": "Complete and spot painting with measurement",
+    "service3": "Body straightening",
+    "service4": "Anti-corrosion protection",
+    "service5": "Replacement and repair of body parts",
+    "service6": "Repair and welding of aluminum elements",
+    "service7": "Liquid polyurethane"
+  },
+  "advantages": {
+    "title": "Our advantages",
+    "advantage1": "Service warranty",
+    "advantage2": "Modern tools and measurements",
+    "advantage3": "Experienced professionals",
+    "advantage4": "Individual approach",
+    "advantage5": "Cooperation with insurers"
+  },
+  "gallery": {
+    "title": "Gallery",
+    "before": "Before",
+    "after": "After"
+  },
+  "contact": {
+    "title": "Contact",
+    "form": {
+      "title": "Contact form",
+      "name": "Full name",
+      "phone": "Phone",
+      "message": "Message",
+      "image": "Upload image of your car",
+      "selectImage": "Choose file",
+      "noFileSelected": "No file selected",
+      "submit": "Send message",
+      "sending": "Sending...",
+      "success": "Message sent successfully!"
+    },
+    "info": {
+      "title": "Contact information",
+      "phone": "Phone",
+      "hours": "Opening hours",
+      "weekdays": "Monday - Friday: 8:00 - 18:00",
+      "saturday": "Saturday: 8:00 - 14:00",
+      "sunday": "Sunday: Closed"
+    }
+  },
+  "footer": {
+    "rights": "All rights reserved",
+    "privacy": "Privacy policy",
+    "terms": "Terms of use"
+  }
+}
