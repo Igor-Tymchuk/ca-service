@@ -17,10 +17,10 @@
   border-radius: var(--border-radius);
   width: 100%;
   max-width: 600px;
-  max-height: 90vh;
-  overflow-y: auto;
+  max-height: 100vh;
+  /* overflow-y: auto; */
   position: relative;
-  padding: var(--spacing-lg);
+  padding: 20px 50px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
   animation: modalFadeIn 0.3s ease;
 }
